@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Подключаем фоновое изображение и фиксируем его при прокрутке */
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+/* Полупрозрачный блок для текста по центру */
+.content-container {
+    background-color: rgba(15, 30, 25, 0.8);
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content-container p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
